@@ -1,9 +1,10 @@
+===== INFORMACIÓN DE USUARIOS Y GRUPOS - Cintora =====
 Usuario actual:
 vagrant
 Grupos del usuario:
-vagrant
+vagrant equipotrabajo
 ID del usuario:
-uid=1000(vagrant) gid=1000(vagrant) groups=1000(vagrant)
+uid=1000(vagrant) gid=1000(vagrant) groups=1000(vagrant),1005(equipotrabajo)
 Usuarios del sistema:
 estudiante1:x:1002:1002::/home/estudiante1:/bin/sh
 estudiante2:x:1003:1003::/home/estudiante2:/bin/sh
