@@ -1,0 +1,28 @@
+===== VERIFICACIÓN DE ARCHIVOS - Cintora =====
+Estructura de directorios creada:
+/mnt/almacenamiento_Cintora/
+/mnt/almacenamiento_Cintora/proyectos
+/mnt/almacenamiento_Cintora/proyectos/activos
+/mnt/almacenamiento_Cintora/proyectos/archivados
+/mnt/almacenamiento_Cintora/temporal
+/mnt/almacenamiento_Cintora/archivos
+/mnt/almacenamiento_Cintora/lost+found
+/mnt/almacenamiento_Cintora/respaldos
+Archivos en cada directorio:
+-rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/proyectos/activos/documento_04.txt
+-rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/proyectos/activos/documento_01.txt
+-rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/proyectos/activos/documento_02.txt
+-rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/proyectos/activos/documento_03.txt
+-rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/proyectos/activos/documento_05.txt
+-rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/proyectos/archivados/documento_08.txt
+-rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/proyectos/archivados/documento_07.txt
+-rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/proyectos/archivados/documento_06.txt
+-rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/temporal/documento_04.txt
+-rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/temporal/documento_01.txt
+-rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/temporal/documento_02.txt
+-rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/temporal/documento_03.txt
+-rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/temporal/documento_05.txt
+-rw-r--r-- 1 root root 1714 Jun  8 19:50 /mnt/almacenamiento_Cintora/archivos/verificacion_archivos.txt
+-rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/respaldos/documento_10.txt
+-rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/respaldos/documento_09.txt
+
