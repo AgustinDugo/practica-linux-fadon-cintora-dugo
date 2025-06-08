@@ -1,0 +1,44 @@
+[?25l[?7l[0m[34m[1m           `-mddhhhhhhhhhddmss`
+        ./mdhhhhhhhhhhhhhhhhhhhhhh.
+     :mdhhhhhhhhhhhhhhhhhhhhhhhhhhhm`
+   :ymhhhhhhhhhhhhhhhyyyyyyhhhhhhhhhy:
+  `odhyyyhhhhhhhhhy+-````./syhhhhhhhho`
+ `hhy..:oyhhhhhhhy-`:osso/..:/++oosyyyh`
+ dhhs   .-/syhhhhs`shhhhhhyyyyyyyyyyyyhs
+:hhhy`  yso/:+syhy/yhhhhhshhhhhhhhhhhhhh:
+hhhhho. +hhhys++oyyyhhhhh-yhhhhhhhhhhhhhs
+hhhhhhs-`/syhhhhyssyyhhhh:-yhhhhhhhhhhhhh
+hhhhhhs  `:/+ossyyhyyhhhhs -yhhhhhhhhhhhh
+hhhhhhy/ `syyyssyyyyhhhhhh: :yhhhhhhhhhhs
+:hhhhhhyo:-/osyhhhhhhhhhhho  ohhhhhhhhhh:
+ sdhhhhhhhyyssyyhhhhhhhhhhh+  +hhhhhhhhs
+ `shhhhhhhhhhhhhhhhhhhhhhy+` .yhhhhhhhh`
+  +sdhhhhhhhhhhhhhhhhhyo/. `/yhhhhhhhd`
+   `:shhhhhhhhhh+---..``.:+yyhhhhhhh:
+     `:mdhhhhhh/.syssyyyyhhhhhhhd:`
+        `+smdhhh+shhhhhhhhhhhhdm`
+           `sNmdddhhhhhhhddm-`[0m
+[20A[9999999D[44C[0m[1m[34m[1mosboxes[0m@[34m[1mosboxes[0m 
+[44C[0m---------------[0m 
+[44C[0m[34m[1mOS[0m[0m:[0m Lubuntu 24.10 x86_64[0m 
+[44C[0m[34m[1mHost[0m[0m:[0m VirtualBox 1.2[0m 
+[44C[0m[34m[1mKernel[0m[0m:[0m 6.11.0-8-generic[0m 
+[44C[0m[34m[1mUptime[0m[0m:[0m 23 mins[0m 
+[44C[0m[34m[1mPackages[0m[0m:[0m 1902 (dpkg), 7 (snap)[0m 
+[44C[0m[34m[1mShell[0m[0m:[0m bash 5.2.32[0m 
+[44C[0m[34m[1mResolution[0m[0m:[0m 1280x800[0m 
+[44C[0m[34m[1mDE[0m[0m:[0m LXQt 2.0.0[0m 
+[44C[0m[34m[1mWM[0m[0m:[0m Openbox[0m 
+[44C[0m[34m[1mTheme[0m[0m:[0m Breeze [GTK3][0m 
+[44C[0m[34m[1mIcons[0m[0m:[0m ePapirus [GTK3][0m 
+[44C[0m[34m[1mTerminal[0m[0m:[0m qterminal[0m 
+[44C[0m[34m[1mTerminal Font[0m[0m:[0m Ubuntu Mono 14[0m 
+[44C[0m[34m[1mCPU[0m[0m:[0m AMD Ryzen 5 3500 (2) @ 3.593GHz[0m 
+[44C[0m[34m[1mGPU[0m[0m:[0m 00:02.0 VMware SVGA II Adapter[0m 
+[44C[0m[34m[1mMemory[0m[0m:[0m 530MiB / 1967MiB[0m 
+
+[44C[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   [37m[47m   [m
+[44C[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   [38;5;14m[48;5;14m   [38;5;15m[48;5;15m   [m
+
+
+[?25h[?7h
