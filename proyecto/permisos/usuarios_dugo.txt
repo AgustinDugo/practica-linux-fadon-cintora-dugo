@@ -2,11 +2,10 @@
 Usuario actual:
 vagrant
 Grupos del usuario:
-vagrant docker
+equipotrabajo docker vagrant
 ID del usuario:
-uid=1000(vagrant) gid=1000(vagrant) groups=1000(vagrant),121(docker)
+uid=1000(vagrant) gid=1007(equipotrabajo) groups=1007(equipotrabajo),121(docker),1000(vagrant)
 Usuarios del sistema:
 estudiante1:x:1004:1004::/home/estudiante1:/bin/sh
 estudiante2:x:1005:1005::/home/estudiante2:/bin/sh
 estudiante3:x:1006:1006::/home/estudiante3:/bin/sh
-
