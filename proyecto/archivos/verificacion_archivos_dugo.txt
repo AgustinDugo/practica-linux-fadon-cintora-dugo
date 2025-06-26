@@ -1,0 +1,27 @@
+===== VERIFICACIÓN DE ARCHIVOS - DUGO =====
+
+Estructura de directorios creada:
+/mnt/almacenamiento_dugo
+/mnt/almacenamiento_dugo/proyectos
+/mnt/almacenamiento_dugo/proyectos/archivados
+/mnt/almacenamiento_dugo/proyectos/activos
+/mnt/almacenamiento_dugo/lost+found
+/mnt/almacenamiento_dugo/respaldos
+/mnt/almacenamiento_dugo/temporal
+
+Archivos en cada directorio:
+-rw-rw-r-- 1 vagrant vagrant 27 Jun 21 19:24 /mnt/almacenamiento_dugo/proyectos/archivados/documento_06.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Jun 21 19:24 /mnt/almacenamiento_dugo/proyectos/archivados/documento_08.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Jun 21 19:24 /mnt/almacenamiento_dugo/proyectos/archivados/documento_07.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Jun 21 19:25 /mnt/almacenamiento_dugo/proyectos/activos/documento_05.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Jun 21 19:25 /mnt/almacenamiento_dugo/proyectos/activos/documento_03.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Jun 21 19:25 /mnt/almacenamiento_dugo/proyectos/activos/documento_04.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Jun 21 19:25 /mnt/almacenamiento_dugo/proyectos/activos/documento_01.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Jun 21 19:25 /mnt/almacenamiento_dugo/proyectos/activos/documento_02.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Jun 21 19:25 /mnt/almacenamiento_dugo/respaldos/documento_10.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Jun 21 19:25 /mnt/almacenamiento_dugo/respaldos/documento_09.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Jun 21 19:24 /mnt/almacenamiento_dugo/temporal/documento_05.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Jun 21 19:24 /mnt/almacenamiento_dugo/temporal/documento_03.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Jun 21 19:24 /mnt/almacenamiento_dugo/temporal/documento_04.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Jun 21 19:24 /mnt/almacenamiento_dugo/temporal/documento_01.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Jun 21 19:24 /mnt/almacenamiento_dugo/temporal/documento_02.txt
