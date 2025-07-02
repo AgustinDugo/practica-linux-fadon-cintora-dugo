@@ -1,0 +1,110 @@
+===== VERIFICACIÓN DE CONTENEDORES - DUGO =====
+
+Contenedores en ejecución:
+CONTAINER ID   IMAGE                  COMMAND      CREATED         STATUS                   PORTS                                                                                                                               NAMES
+1d14d72d4572   pihole/pihole:latest   "start.sh"   4 minutes ago   Up 3 minutes (healthy)   0.0.0.0:53->53/tcp, :::53->53/tcp, 67/udp, 0.0.0.0:80->80/tcp, 0.0.0.0:53->53/udp, :::80->80/tcp, :::53->53/udp, 123/udp, 443/tcp   pihole-practica
+
+Estado con docker-compose:
+     Name         Command       State                                                                   Ports                                                             
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pihole-practica   start.sh   Up (healthy)   123/udp, 443/tcp, 0.0.0.0:53->53/tcp,:::53->53/tcp, 0.0.0.0:53->53/udp,:::53->53/udp, 67/udp, 0.0.0.0:80->80/tcp,:::80->80/tcp
+
+Respuesta del contenedor (curl):
+HTTP/1.1 403 Forbidden
+Cache-Control: no-cache, no-store, must-revalidate, private, max-age=0
+Expires: 0
+Pragma: no-cache
+X-DNS-Prefetch-Control: off
+Content-Security-Policy: default-src 'self' 'unsafe-inline';
+X-Frame-Options: DENY
+X-XSS-Protection: 0
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Type: text/html; charset=utf-8
+Date: Wed, 02 Jul 2025 03:13:48 GMT
+Connection: close
+
+
+Logs del contenedor:
+Attaching to pihole-practica
+[36mpihole-practica |[0m   [i] Setting up user & group for the pihole user
+[36mpihole-practica |[0m   [i] PIHOLE_UID not set in environment, using default (1000)
+[36mpihole-practica |[0m   [i] PIHOLE_GID not set in environment, using default (1000)
+[36mpihole-practica |[0m 
+[36mpihole-practica |[0m   [i] Starting FTL configuration
+[36mpihole-practica |[0m   [i] Password already set in config file
+[36mpihole-practica |[0m   [i] Starting crond for scheduled scripts. Randomizing times for gravity and update checker
+[36mpihole-practica |[0m 
+[36mpihole-practica |[0m   [i] Ensuring logrotate script exists in /etc/pihole
+[36mpihole-practica |[0m 
+[36mpihole-practica |[0m   [i] Gravity migration checks
+[36mpihole-practica |[0m   [i] Existing gravity database found - schema will be upgraded if necessary
+[36mpihole-practica |[0m      
+[36mpihole-practica |[0m 
+[36mpihole-practica |[0m   [i] pihole-FTL pre-start checks
+[36mpihole-practica |[0m   [i] Setting capabilities on pihole-FTL where possible
+[36mpihole-practica |[0m   [i] Applying the following caps to pihole-FTL:
+[36mpihole-practica |[0m         * CAP_CHOWN
+[36mpihole-practica |[0m         * CAP_NET_BIND_SERVICE
+[36mpihole-practica |[0m         * CAP_NET_RAW
+[36mpihole-practica |[0m         * CAP_NET_ADMIN
+[36mpihole-practica |[0m 
+[36mpihole-practica |[0m   [i] Starting pihole-FTL (no-daemon) as pihole
+[36mpihole-practica |[0m 
+[36mpihole-practica |[0m   [i] Version info:
+[36mpihole-practica |[0m       Core version is v6.1.2 (Latest: v6.1.2)
+[36mpihole-practica |[0m       Web version is v6.2.1 (Latest: v6.2.1)
+[36mpihole-practica |[0m       FTL version is v6.2.3 (Latest: v6.2.3)
+[36mpihole-practica |[0m 
+[36mpihole-practica |[0m 2025-07-02 00:10:34.289 -03 [54M] INFO: ########## FTL started on pihole-practica! ##########
+[36mpihole-practica |[0m 2025-07-02 00:10:34.289 -03 [54M] INFO: FTL branch: master
+[36mpihole-practica |[0m 2025-07-02 00:10:34.289 -03 [54M] INFO: FTL version: v6.2.3
+[36mpihole-practica |[0m 2025-07-02 00:10:34.289 -03 [54M] INFO: FTL commit: 88737f62
+[36mpihole-practica |[0m 2025-07-02 00:10:34.289 -03 [54M] INFO: FTL date: 2025-06-10 20:44:58 +0200
+[36mpihole-practica |[0m 2025-07-02 00:10:34.289 -03 [54M] INFO: FTL user: pihole
+[36mpihole-practica |[0m 2025-07-02 00:10:34.289 -03 [54M] INFO: Compiled for linux/amd64 (compiled on CI) using cc (Alpine 14.2.0) 14.2.0
+[36mpihole-practica |[0m 2025-07-02 00:10:34.291 -03 [54M] INFO: 1 FTLCONF environment variable found (0 used, 0 invalid, 1 ignored)
+[36mpihole-practica |[0m 2025-07-02 00:10:34.291 -03 [54M] WARNING: [?] FTLCONF_LOCAL_IPV4 is unknown, did you mean any of these?
+[36mpihole-practica |[0m 2025-07-02 00:10:34.291 -03 [54M] WARNING:     - FTLCONF_debug_all
+[36mpihole-practica |[0m 2025-07-02 00:10:34.292 -03 [54M] INFO: Wrote config file:
+[36mpihole-practica |[0m 2025-07-02 00:10:34.292 -03 [54M] INFO:  - 155 total entries
+[36mpihole-practica |[0m 2025-07-02 00:10:34.292 -03 [54M] INFO:  - 152 entries are default
+[36mpihole-practica |[0m 2025-07-02 00:10:34.292 -03 [54M] INFO:  - 3 entries are modified
+[36mpihole-practica |[0m 2025-07-02 00:10:34.292 -03 [54M] INFO:  - 0 entries are forced through environment
+[36mpihole-practica |[0m 2025-07-02 00:10:34.293 -03 [54M] INFO: Parsed config file /etc/pihole/pihole.toml successfully
+[36mpihole-practica |[0m 2025-07-02 00:10:34.293 -03 [54M] INFO: PID file does not exist or not readable
+[36mpihole-practica |[0m 2025-07-02 00:10:34.293 -03 [54M] INFO: No other running FTL process found.
+[36mpihole-practica |[0m 2025-07-02 00:10:34.293 -03 [54M] WARNING: Insufficient permissions to set process priority to -10 (CAP_SYS_NICE required), process priority remains at 0
+[36mpihole-practica |[0m 2025-07-02 00:10:34.295 -03 [54M] INFO: PID of FTL process: 54
+[36mpihole-practica |[0m 2025-07-02 00:10:34.296 -03 [54M] INFO: listening on 0.0.0.0 port 53
+[36mpihole-practica |[0m 2025-07-02 00:10:34.296 -03 [54M] INFO: listening on :: port 53
+[36mpihole-practica |[0m 2025-07-02 00:10:34.300 -03 [54M] INFO: PID of FTL process: 54
+[36mpihole-practica |[0m 2025-07-02 00:10:34.303 -03 [54M] ERROR: SQLite3: recovered 212 frames from WAL file /etc/pihole/pihole-FTL.db-wal (283)
+[36mpihole-practica |[0m 2025-07-02 00:10:34.304 -03 [54M] INFO: Database version is 21
+[36mpihole-practica |[0m 2025-07-02 00:10:34.306 -03 [54M] INFO: Database successfully initialized
+[36mpihole-practica |[0m 2025-07-02 00:10:34.309 -03 [54M] INFO: Imported 22 queries from the on-disk database (it has 22 rows)
+[36mpihole-practica |[0m 2025-07-02 00:10:34.309 -03 [54M] INFO: Parsing queries in database
+[36mpihole-practica |[0m 2025-07-02 00:10:34.309 -03 [54M] INFO: Imported 22 queries from the long-term database
+[36mpihole-practica |[0m 2025-07-02 00:10:34.309 -03 [54M] INFO:  -> Total DNS queries: 22
+[36mpihole-practica |[0m 2025-07-02 00:10:34.309 -03 [54M] INFO:  -> Cached DNS queries: 19
+[36mpihole-practica |[0m 2025-07-02 00:10:34.310 -03 [54M] INFO:  -> Forwarded DNS queries: 3
+[36mpihole-practica |[0m 2025-07-02 00:10:34.310 -03 [54M] INFO:  -> Blocked DNS queries: 0
+[36mpihole-practica |[0m 2025-07-02 00:10:34.310 -03 [54M] INFO:  -> Unknown DNS queries: 0
+[36mpihole-practica |[0m 2025-07-02 00:10:34.310 -03 [54M] INFO:  -> Unique domains: 6
+[36mpihole-practica |[0m 2025-07-02 00:10:34.310 -03 [54M] INFO:  -> Unique clients: 2
+[36mpihole-practica |[0m 2025-07-02 00:10:34.310 -03 [54M] INFO:  -> DNS cache records: 0
+[36mpihole-practica |[0m 2025-07-02 00:10:34.310 -03 [54M] INFO:  -> Known forward destinations: 2
+[36mpihole-practica |[0m 2025-07-02 00:10:34.337 -03 [54M] WARNING: Insufficient permissions to set system time (CAP_SYS_TIME required), NTP client not available
+[36mpihole-practica |[0m 2025-07-02 00:10:34.338 -03 [54/T55] INFO: NTP server listening on 0.0.0.0:123 (IPv4)
+[36mpihole-practica |[0m 2025-07-02 00:10:34.338 -03 [54/T56] INFO: NTP server listening on :::123 (IPv6)
+[36mpihole-practica |[0m 2025-07-02 00:10:34.338 -03 [54M] INFO: FTL is running as user pihole (UID 1000)
+[36mpihole-practica |[0m 2025-07-02 00:10:34.338 -03 [54M] INFO: Reading certificate from /etc/pihole/tls.pem ...
+[36mpihole-practica |[0m 2025-07-02 00:10:34.338 -03 [54M] INFO: Using SSL/TLS certificate file /etc/pihole/tls.pem
+[36mpihole-practica |[0m 2025-07-02 00:10:34.339 -03 [54M] INFO: Web server ports:
+[36mpihole-practica |[0m 2025-07-02 00:10:34.339 -03 [54M] INFO:   - 0.0.0.0:80 (HTTP, IPv4, optional, OK)
+[36mpihole-practica |[0m 2025-07-02 00:10:34.339 -03 [54M] INFO:   - 0.0.0.0:443 (HTTPS, IPv4, optional, OK)
+[36mpihole-practica |[0m 2025-07-02 00:10:34.339 -03 [54M] INFO:   - [::]:80 (HTTP, IPv6, optional, OK)
+[36mpihole-practica |[0m 2025-07-02 00:10:34.339 -03 [54M] INFO:   - [::]:443 (HTTPS, IPv6, optional, OK)
+[36mpihole-practica |[0m 2025-07-02 00:10:34.340 -03 [54M] INFO: Restored 0 API sessions from the database
+[36mpihole-practica |[0m 2025-07-02 00:10:34.342 -03 [54M] INFO: Blocking status is enabled
+[36mpihole-practica |[0m 2025-07-02 00:10:34.440 -03 [54/T57] INFO: Compiled 0 allow and 0 deny regex for 2 clients in 0.1 msec
