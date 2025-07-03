@@ -1,0 +1,11 @@
+===== VERIFICACIÓN DE PERMISOS - Ignacio Fadon =====
+Archivos en mi directorio personal:
+total 16
+drwxr-xr-x 2 vagrant vagrant 4096 Jul  3 20:52 .
+drwxr-x--- 8 vagrant vagrant 4096 Jul  3 20:45 ..
+-rw------- 1 vagrant vagrant   32 Jul  3 20:52 privado.txt
+-rw-r--r-- 1 vagrant vagrant   33 Jul  3 20:52 publico.txt
+Archivos en directorio colaborativo:
+
+Información del grupo equipotrabajo:
+equipotrabajo:x:1002:
