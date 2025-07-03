@@ -1,27 +1,50 @@
-===== VERIFICACIÓN DE ARCHIVOS - Cintora =====
-Estructura de directorios creada:
-/mnt/almacenamiento_Cintora/
-/mnt/almacenamiento_Cintora/proyectos
-/mnt/almacenamiento_Cintora/proyectos/activos
-/mnt/almacenamiento_Cintora/proyectos/archivados
-/mnt/almacenamiento_Cintora/temporal
-/mnt/almacenamiento_Cintora/archivos
-/mnt/almacenamiento_Cintora/lost+found
-/mnt/almacenamiento_Cintora/respaldos
-Archivos en cada directorio:
--rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/proyectos/activos/documento_04.txt
--rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/proyectos/activos/documento_01.txt
--rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/proyectos/activos/documento_02.txt
--rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/proyectos/activos/documento_03.txt
--rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/proyectos/activos/documento_05.txt
--rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/proyectos/archivados/documento_08.txt
--rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/proyectos/archivados/documento_07.txt
--rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/proyectos/archivados/documento_06.txt
--rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/temporal/documento_04.txt
--rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/temporal/documento_01.txt
--rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/temporal/documento_02.txt
--rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/temporal/documento_03.txt
--rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/temporal/documento_05.txt
--rw-r--r-- 1 root root 1714 Jun  8 19:50 /mnt/almacenamiento_Cintora/archivos/verificacion_archivos.txt
--rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/respaldos/documento_10.txt
--rw-r--r-- 1 root root 27 Jun  8 05:27 /mnt/almacenamiento_Cintora/respaldos/documento_09.txt
+===== VERIFICACIÓN DE ARCHIVOS - IgnacioFadon =====
+
+Estructura de directorios:
+/mnt/almacenamiento_IgnacioFadon
+/mnt/almacenamiento_IgnacioFadon
+/mnt/almacenamiento_IgnacioFadon/temporal
+/mnt/almacenamiento_IgnacioFadon/respaldos
+/mnt/almacenamiento_IgnacioFadon/lost+found
+/mnt/almacenamiento_IgnacioFadon/proyectos
+/mnt/almacenamiento_IgnacioFadon/proyectos/activos
+/mnt/almacenamiento_IgnacioFadon/proyectos/archivados
+
+Archivos en temporal:
+/mnt/almacenamiento_IgnacioFadon/temporal
+total 28
+drwxr-xr-x 2 vagrant vagrant 4096 Jul  3 22:00 .
+drwxr-xr-x 6 vagrant vagrant 4096 Jul  3 21:56 ..
+-rw-r--r-- 1 root    root      27 Jul  3 21:58 documento_01.txt
+-rw-r--r-- 1 root    root      27 Jul  3 21:58 documento_02.txt
+-rw-r--r-- 1 root    root      27 Jul  3 21:58 documento_03.txt
+-rw-r--r-- 1 root    root      27 Jul  3 21:58 documento_04.txt
+-rw-r--r-- 1 root    root      27 Jul  3 21:58 documento_05.txt
+
+Archivos en proyectos/activos:
+/mnt/almacenamiento_IgnacioFadon/proyectos/activos
+total 28
+drwxr-xr-x 2 vagrant vagrant 4096 Jul  3 21:59 .
+drwxr-xr-x 4 vagrant vagrant 4096 Jul  3 21:56 ..
+-rw-r--r-- 1 root    root      27 Jul  3 21:59 documento_01.txt
+-rw-r--r-- 1 root    root      27 Jul  3 21:59 documento_02.txt
+-rw-r--r-- 1 root    root      27 Jul  3 21:59 documento_03.txt
+-rw-r--r-- 1 root    root      27 Jul  3 21:59 documento_04.txt
+-rw-r--r-- 1 root    root      27 Jul  3 21:59 documento_05.txt
+
+Archivos en proyectos/archivados:
+/mnt/almacenamiento_IgnacioFadon/proyectos/archivados
+total 20
+drwxr-xr-x 2 vagrant vagrant 4096 Jul  3 21:59 .
+drwxr-xr-x 4 vagrant vagrant 4096 Jul  3 21:56 ..
+-rw-r--r-- 1 root    root      27 Jul  3 21:58 documento_06.txt
+-rw-r--r-- 1 root    root      27 Jul  3 21:58 documento_07.txt
+-rw-r--r-- 1 root    root      27 Jul  3 21:58 documento_08.txt
+
+Archivos en respaldos:
+/mnt/almacenamiento_IgnacioFadon/respaldos
+total 16
+drwxr-xr-x 2 vagrant vagrant 4096 Jul  3 22:00 .
+drwxr-xr-x 6 vagrant vagrant 4096 Jul  3 21:56 ..
+-rw-r--r-- 1 root    root      27 Jul  3 22:00 documento_09.txt
+-rw-r--r-- 1 root    root      27 Jul  3 22:00 documento_10.txt
